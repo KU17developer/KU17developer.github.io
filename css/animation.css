@@ -1,0 +1,90 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes slideUp50 {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes slideUp20 {
+  0% {
+    transform: translateY(20%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes slideRight20 {
+  0% {
+    transform: translateX(-20%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+}
+@keyframes slideUp5 {
+  0% {
+    transform: translateY(5%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+}
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes wipe {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes birdMoveV {
+  0% {
+    transform: translateY(15%);
+  }
+  50% {
+    transform: translateY(-15%);
+  }
+}
+@keyframes birdMoveH {
+  0% {
+    left: 20%;
+    top: 47%;
+  }
+  10% {
+    left: 90%;
+    top: 35%;
+  }
+}
+@keyframes bgMove {
+  0% {
+    background-position: 0;
+  }
+  10% {
+    background-position: 100%;
+  }
+}

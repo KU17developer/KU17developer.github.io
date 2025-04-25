@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:url" content="https://heosukyeong.github.io/portpolio/">
+    <meta property="og:title" content="허수경 | Java 개발자 포트폴리오">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="img/mylogo.png">
+    <meta property="og:description" content="신입 개발자, 허수경의 포트폴리오입니다.">
+    <title>허수경 | Java 개발자 포트폴리오</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- fullpage -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/fullpage.css" />
+    <script src="./js/fullpage.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/design.css" />
+    <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <div id="load"><img src="img/logo.svg" alt="loading" /></div>
+    <!-- 로딩이미지 -->
+    <div id="cursor" class="intro_ani"></div>
+    <!-- 마우스커서 -->
+    <div class="section_bg bg1"></div>
+    <!-- 섹션 배경 고정 -->
+    <div class="section_bg bg2"></div>
+    <!-- 섹션 배경 고정 -->
+    <div class="layer_btm_gradient"></div>
+    <header class="intro_ani">
+      <h1><a href="#firstPage">SuKyeong Heo PORTFOLIO</a></h1>
+      <ul id="myMenu">
+        <li data-menuanchor="firstPage" class="active">
+          <a href="#firstPage">INTRO</a>
+        </li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">ABOUT</a></li>
+        <li data-menuanchor="skillPage"><a href="#skillPage">SKILL</a></li>
+        <li data-menuanchor="archivingPage"><a href="#archivingPage">ARCHIVING</a></li>
+        <li data-menuanchor="thirdPage">
+          <a href="#thirdPage"
+            >WEB<span class="mobile_skip"> PROJECT</span></a
+          >
+          <ul class="sub">
+            <li data-menuanchor="thirdPage">
+              <a href="#thirdPage">PORT VOL.01</a>
+            </li>
+            <li data-menuanchor="fourthPage">
+              <a href="#fourthPage">PORT VOL.02</a>
+            </li>
+            <li data-menuanchor="fifthPage">
+              <a href="#fifthPage">PORT VOL.03</a>
+            </li>
+            <li data-menuanchor="sixthPage">
+              <a href="#sixthPage">PORT VOL.04</a>
+            </li>
+          </ul>
+        </li>
+        <li data-menuanchor="seventhPage">
+          <a href="#seventhPage"
+            ><span class="mobile_skip"> CONTACT</span></a
+          >
+        </li>
+      </ul>
+    </header>
+    <div id="fullpage">
+      <div id="intro" class="section">
+        <div class="layer layer1 intro_ani">
+          <!-- 1.구름 -->
+          <div class="bird intro_ani"></div>
+          <!-- 새가 산 가로질러 떠다니는 애니메이션 -->
+        </div>
+        <div class="layer title">
+          <!-- 소개문구 -->
+          <div class="title_container">
+            <h1>
+              <span class="intro_ani"
+                ><strong>도전</strong>을 무서워하지 않는 </span
+              >
+              <span class="line intro_ani"></span>
+              <span class="intro_ani"
+                ><strong>신입 개발자, 허수경</strong>입니다.</span
+              >
+            </h1>
+            <h1 class="intro_ani">JAVA DEVELOPER</h1>
+          </div>
+        </div>
+        <div class="layer layer2 intro_ani"></div>
+        <!-- 2.산 -->
+        <div class="layer layer3 intro_ani"></div>
+        <!-- 3.들판 -->
+        <div class="layer layer4 intro_ani"></div>
+        <!-- 4.들판 -->
+        <div class="scrolldown intro_ani">
+          <p class="mouse_outline"></p>
+          <p class="mouse_wheel"></p>
+        </div>
+      </div>
+
+      <div id="about" class="section">
+        <div class="gretting-margin"><span class="gretting">"하늘이 감동할 만큼 노력하는, 허수경입니다."</span></div>
+        <div class="contents_wrap">
+          <div class="info-photo">
+            <div class="photo"></div>
+          </div>
+          <div class="info_all2">
+
+            <div class="info">
+              <h2>ABOUT ME</h2>
+              <p>안녕하세요. 신입 Java 개발자 허수경입니다.
+                <br>저는 Java를 주언어로 사용하고 있으며, Spring Boot, JSP, Oracle 등 웹 개발에 대해 공부하고 있습니다.
+                <br><u>'하늘이 감동할 만큼 노력하자'</u>는 저의 좌우명으로 어떤 상황에서도 최선을 다하고 끊임없이 노력하여 지속적인 성장을 이루자는 다짐입니다.
+                이러한 좌우명에 맞게 늘 발전하는 모습보여드리겠습니다.
+              </p>
+            </div>
+            <!-- e:info -->
+
+            <div class="info-row">
+              <div class="info profile">
+                <h2>PROFILE</h2>
+                  <ul>
+                    <li>
+                      <p>Name</p>
+                      <p>허수경</p>
+                    </li>
+                    <li>
+                      <p>Birth</p>
+                      <p>1998.04.27</p>
+                    </li>
+                    <li>
+                      <p>Mail</p>
+                      <p class="mail">fcb1014@naver.com</p>
+                    </li>
+                  </ul>
+              </div>
+              <!--e: info-->
+              <div class="info crt">
+                <h2>CERTIFICATE</h2>
+                <ul>
+                  <li>
+                    <p>2023</p>
+                    <p>정보처리기사 (국가기술자격)</p>
+                  </li>
+                  <li>
+                    <p>2022</p>
+                    <p>SQL개발자 (공인민간자격)</p>
+                  </li>
+                  <li>
+                    <p>2019</p>
+                    <p>운전면허2종보통 (국가전문자격)</p>
+                  </li>
+                </ul>
+              </div>
+              <!--e: info-->
+            </div>
+            <!-- e:info-row -->
+
+            <div class="info">
+              <h2>EDUCATION</h2>
+              <ul>
+                <li>
+                  <p>2025.02</p>
+                  <p>한양대학교 정보융합전공 졸업 예정</p>
+                </li>
+                <li>
+                  <p>2024.08</p>
+                  <p>삼성SDS 대학생 알고리즘 특강 수료</p>
+                </li>
+                <!-- <li>
+                  <p>2022.02</p>
+                  <p>스파르타코딩클럽 웹개발 종합반 수료</p>
+                </li> -->
+              </ul>
+            </div>
+            <!--e: info-->
+
+            <div class="info">
+              <h2>EXPERIENCE</h2>
+
+              <!-- <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 10px;">
+                  <p style="margin: 0;">2024.03 ~ 2024.06</p>
+                  <p style="margin: 0;">삼성전자DS SW개발팀 인턴(장기현장실습)</p>
+                </li>
+                <li style="margin-bottom: 10px;">
+                  <p style="margin: 0;">2023.12 ~ 2024.02</p>
+                  <p style="margin: 0;">몰큐브 개발팀 인턴(현장실습)</p>
+                </li>
+                <li style="margin-bottom: 10px;">
+                  <p style="margin: 0;">2015.04</p>
+                  <p style="margin: 0;">충남기능경기대회 정보기술분야 은상</p>
+                </li>
+              </ul> -->
+              <ul>
+                <li>
+                  <p>2024.03 ~ 2024.06</p>
+                  <p style="margin-left: 100px;">삼성전자DS SW개발팀 인턴</p>
+                </li>
+                <li>
+                  <p>2023.12 ~ 2024.02</p>
+                  <p style="margin-left: 100px;">몰큐브 개발팀 인턴</p>
+                </li>
+              </ul>
+            </div>
+            <!--e: info-->
+          </div>
+          <!-- e:info_all -->
+        </div>
+        <!-- e:contents_wrap -->
+      </div>
+      <!-- e:about -->
+
+      <div id="skill" class="section">
+        <div class="big-title">SKILLS</div>
+        <div class="skills">
+
+          <div class="skill-wrap" style="height: 610px;">
+            <div class="skill-title">Back-End</div>
+            <div><img src="img/backend2.png"></div>
+          </div>
+
+          <div class="skill-col">
+            <div class="skill-wrap">
+              <div>
+                <div class="skill-title">Front-End</div>
+                <div><img src="img/frontend.png"></div>
+              </div>
+            </div>
+            <div class="skill-wrap">
+              <div>
+                <div class="skill-title">DB</div>
+                <div><img src="img/db.png"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-col">
+            <div class="skill-wrap">
+              <div>
+                <div class="skill-title">Server</div>
+                <div><img src="img/server.png"></div>
+              </div>
+            </div>
+            <div class="skill-wrap">
+              <div>
+                <div class="skill-title">Version Control</div>
+                <div><img src="img/git.png"></div>
+              </div>
+            </div>
+          </div>  
+            <div class="skill-wrap" style="height: 610px;">
+              <div class="skill-title">Tools</div>
+              <div><img src="img/tools2.png"></div>
+            </div>
+  
+
+
+        </div>
+      </div>  
+      <!-- skiil end -->
+
+
+      <div id="archiving" class="section">
+        <div class="big-title" style="margin-bottom: 70px;">ARCHIVING</div>
+          <div class="archivings">
+            <!-- github -->
+            <a id="archiving-git" class="archiving-wrap" href="https://github.com/heoSuKyeong" target="_blank">
+              <div class="warp-title">
+                <div><img src="img/github.png"></div>
+                <div class="archiving-title">GitHub</div>
+              </div>
+              <div id="archiving-url" onclick="move1()"><span>https://github.com/heoSuKyeong/</span></div>
+              <div class="archiving-content">
+                <p><b>소스코드 저장소</b>입니다.</p>
+                <ul>
+                  <li>– 프로젝트 코드</li>
+                  <li>– 코딩테스트 연습 코드</li>
+                  <li style="color: rgba(255, 255, 255, 0.5);">.</li>
+                </ul>
+              </div>
+
+            </a>
+            <!-- github : end -->
+            <!-- github -->
+            <a id="archiving-tistory" class="archiving-wrap" href="https://steady-record.tistory.com" target="_blank">
+              <div class="warp-title" >
+                <div><img src="img/tstory.png"></div>
+                <div class="archiving-title">Tistory</div>
+              </div>
+              <div id="archiving-url" onclick="move2()">https://steady-record.tistory.com</div>
+              <div class="archiving-content">
+                <p><b>공부 및 지식 공유</b> 목적의 블로그입니다.</p>
+                <ul>
+                  <li>– 공부한 것을 진정한 나의 것으로 만들기 위한 기록</li>
+                  <li>– 웹 개발자의 길을 걸으며 공부한 웹 관련 지식 정리</li>
+                  <li>– 지식 공유 및 피드백을 통한 학습</li>
+                </ul>
+              </div>
+
+            </a>
+            <!-- github : end -->
+
+          </div>
+        </div>
+      
+
+
+      <div id="seoulmilk" class="section web_section">
+        <div class="contents">
+          <div class="mockup_all">
+            <div class="mockup desktop">
+              <p class="screenshot">
+                <img src="img/jalangi.png" alt="jalangi" />
+              </p>
+              <p class="frame"></p>
+            </div>
+            <div class="mockup mobile">
+              <p class="screenshot"></p>
+              <p class="frame"></p>
+            </div>
+          </div>
+          <div class="info">
+            <div class="title">
+              <h1>PORT VOL.01</h1>
+              <p class="description">[자격증 종합 정보 사이트, 자랑이]
+              </p>
+            </div>
+            <ul>
+              <li>
+                <span>TYPE</span>
+                <span>Spring Project</span>
+              </li>
+              <li>
+                <span>LANGUAGE</span>
+                <span>Java, Oracle Database 11g, HTML, CSS, JavaScript
+                </span>
+              </li>
+              <li>
+                <span>TOOL</span>
+                <span>Eclipse, SQL Developer, eXERD, Draw.io, Google Drive
+                </span>
+              </li>
+              <li>
+                <span>PERIOD</span>
+                <span>2023/12/18 ~ 2023/12/27</span>
+              </li>
+            </ul>
+            <div class="link">
+              <a href="https://github.com/heoSuKyeong/JrSpring/tree/main" target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="bg_circle"></div>
+      </div>
+      <!-- e:seoulmilk-->
+      <div id="mac" class="section web_section">
+        <div class="contents">
+          <div class="mockup_all">
+            <div class="mockup desktop">
+              <p class="screenshot" style="top:15%;">
+                <img src="./img/mztest.png" alt="mz테스트" style="width: 60%;" />
+              </p>
+              <p class="frame"></p>
+            </div>
+          </div>
+          <div class="info">
+            <div class="title">
+              <h1>PORT VOL.02</h1>
+              <p class="description">[세대 간의 통합을 위한, MZ 레벨 테스트]
+              </p>
+            </div>
+            <ul>
+              <li>
+                <span>TYPE</span>
+                <span>Web Project</span>
+              </li>
+              <li>
+                <span>LANGUAGE</span>
+                <span>JavaScript, HTML, CSS
+                </span>
+              </li>
+              <li>
+                <span>TOOL</span>
+                <span>Visual Studio Code, Figma, GitHub, Notion
+                </span>
+              </li>
+              <li>
+                <span>PERIOD</span>
+                <span>2023/02/16 ~ 2023/02/26
+                </span>
+              </li>
+            </ul>
+            <div class="link">
+              <a href="https://mzoffice-typetest.netlify.app/" target="_blank">Website</a>
+            </div>
+          </div>
+          <!-- e:info -->
+        </div>
+        <!-- e:contents -->
+        <div class="bg_circle"></div>
+      </div>
+      <!-- e:mac -->
+      <div id="samapharm" class="section web_section">
+        <div class="contents">
+          <div class="mockup_all desktop_only">
+            <div class="mockup desktop">
+              <p class="screenshot">
+                <img src="img/coffee.png" alt="오늘의커피" />
+              </p>
+              <p class="frame"></p>
+            </div>
+          </div>
+          <div class="info">
+            <div class="title">
+              <h1>PORT VOL.03</h1>
+              <p class="description">
+                [개인 취향에 따른 원두 추천 사이트, 오늘의 커피]
+              </p>
+            </div>
+            <ul>
+              <li>
+                <span>TYPE</span>
+                <span>Web Project</span>
+              </li>
+              <li>
+                <span>LANGUAGE</span>
+                <span>JavaScript, HTML, CSS
+                </span>
+              </li>
+              <li>
+                <span>TOOL</span>
+                <span>Visual Studio Code
+                </span>
+              </li>
+              <li>
+                <span>PERIOD</span>
+                <span>2022/02/09~2022/02/25
+                </span>
+              </li>
+            </ul>
+            <div class="link">
+              <a href="https://todaycoffee.netlify.app/index.html
+              " target="_blank"
+                >Website</a
+              >
+            </div>
+          </div>
+          
+        </div>
+        <!-- e:contents -->
+        <div class="bg_circle"></div>
+      </div>
+      <!-- e:samapharm -->
+      <div id="watchapedia" class="section web_section">
+        <div class="contents">
+          <div class="mockup_all">
+            <div class="mockup desktop">
+              <p class="screenshot">
+                <img src="img/oracle.png" alt="oracle" />
+              </p>
+              <p class="frame"></p>
+            </div>
+          </div>
+          <div class="info">
+            <div class="title">
+              <h1>PORT VOL.04</h1>
+              <p class="description">
+                [효율적인 학원 운영을 위한, 관리시스템 DB 구현]
+
+              </p>
+            </div>
+            <ul>
+              <li>
+                <span>TYPE</span>
+                <span>DB(Oracle) Project</span>
+              </li>
+              <li>
+                <span>LANGUAGE</span>
+                <span>Oracle Database 11g
+                </span>
+              </li>
+              <li>
+                <span>TOOL</span>
+                <span>SQL Developer, DBeaver, eXERD, Draw.io
+
+                </span>
+              </li>
+              <li>
+                <span>PERIOD</span>
+                <span>2023/09/11~2023/09/18
+
+                </span>
+              </li>
+            </ul>
+            <div class="link">
+              <a
+                href="https://github.com/heoSuKyeong/oracle-education-db
+                "
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- e:contents -->
+        <div class="bg_circle"></div>
+      </div>
+
+      <div id="clone" class="section clone_graphic_section">
+        <div class="contents">
+          <h1>CONTACT</h1>
+
+          
+          <p>프로젝트 자세한 내용은</p>
+          <a href="https://drive.google.com/file/d/1U7Y-fW5RWO4FDZIXqGxK7iyNo0QKg6xR/view?usp=sharing" target="_blank">→<span style="color: tomato;">PDF</span>←로 작성되어있습니다.</a>
+          
+          <h2>이상, 신입 JAVA DEVELOPER 허수경입니다.</h2>
+          </div>
+  </div>
+    <script src="script/script.js"></script>
+    <script>
+
+      function move1(){
+        window.open('https://github.com/heoSuKyeong/');
+      }
+
+      function move2(){
+        window.open('https://steady-record.tistory.com');
+      }
+
+    </script>
+  </body>
+</html>

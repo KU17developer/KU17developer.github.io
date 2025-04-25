@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'DM Serif Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+a,
+header,
+main,
+nav,
+footer,
+aside,
+section,
+article,
+figure,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+address,
+video,
+img,
+em,
+span,
+sub,
+sup,
+code,
+del,
+s,
+q,
+blockquote,
+form,
+fieldset,
+input,
+button,
+select,
+option,
+textarea {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Noto Sans KR', 'sans-serif';
+  letter-spacing: -0.02em;
+  line-height: 1;
+  word-break: keep-all;
+  cursor: none; /* 湲곕낯 而ㅼ꽌 �④린湲� */
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td {
+  border-collapse: collapse;
+}
+th {
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+fieldset {
+  border: 0;
+}
+textarea {
+  resize: none;
+  border: 0;
+}
+input,
+button,
+label {
+  /* cursor:pointer;  */
+  background: none;
+  border: 0;
+}
+.skip {
+  display: none;
+}
