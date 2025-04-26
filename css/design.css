@@ -28,7 +28,7 @@ body {
 }
 
 #cursor {
-  pointer-events: none; /* �꾨?���� �볦?�� �붿?�� ??�ㅼ�?? ��??깽��?? 留됱�?? �딅룄濡�?? */
+  pointer-events: none; /* �꾨?���� �볦?�� �붿?�� ??�ㅼ�?? ��??깽��?? 留됱�?? �딅룄濡�?? */
   position: fixed;
   top: -10%;
   left: -10%;
@@ -153,7 +153,7 @@ header h1 a:hover {
 header ul {
   height: 100%;
   display: flex;
-  align-items: stretch; /* li ��?�씠 100 李⑥��?���?? stretch */
+  align-items: stretch; /* li ��?�씠 100 李⑥��?���?? stretch */
 }
 header ul li {
   position: relative;
@@ -584,10 +584,10 @@ about
 #archiving #archiving-git:hover {
   transform: translateY(20px);
 }
-#archiving #archiving-tistory {
+#archiving #archiving-velog {
   transition: 0.2s ease-in-out;
 }
-#archiving #archiving-tistory:hover {
+#archiving #archiving-velog:hover {
   transform: translateY(20px);
 }
 
